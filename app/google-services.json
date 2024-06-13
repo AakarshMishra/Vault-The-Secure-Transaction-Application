@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "563612194789",
+    "project_id": "vault-iss",
+    "storage_bucket": "vault-iss.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563612194789:android:1a64c97c82ddc08bf2c10c",
+        "android_client_info": {
+          "package_name": "com.example.vault"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1eqkXXsniMKK1j7dCegRpMDS7cFDOuyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

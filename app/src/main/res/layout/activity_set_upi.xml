@@ -1,0 +1,62 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/upi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="SetUp UPI Pin"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:padding="30dp"
+            android:textColor="@color/purple"
+            ></TextView>
+
+
+
+        <EditText
+            android:id="@+id/editTextStudentID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="UPI"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/left"
+            android:drawablePadding="8dp"
+            android:inputType="number"
+            android:background="@drawable/whitebackground"
+            android:padding="30px"
+            android:layout_margin="20px"/>
+
+        <EditText
+            android:id="@+id/editTextStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Rewrite UPI"
+            android:drawableLeft="@drawable/left"
+            android:inputType="number"
+            android:drawablePadding="8dp"
+            android:textColor="@color/black"
+            android:background="@drawable/whitebackground"
+            android:padding="30px"
+            android:layout_margin="20px"/>
+
+
+        <Button
+            android:id="@+id/buttonSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set the upi pin"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/whitebackground"
+            android:layout_margin="20px"/>
+
+    </LinearLayout>
+</ScrollView>
